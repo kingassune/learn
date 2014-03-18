@@ -41,11 +41,11 @@ import sys
 
 # +++your code here+++
 def print_words(fielname):
-
-
-
-
-def print_top(filename):
+  word_count = {}
+  input_file = open(filename, 'r')
+  for line in input_file:
+    print line
+   input_file.close()
 
 # Define print_words(filename) and print_top(filename) functions.
 # You could write a helper utility function that reads a file
